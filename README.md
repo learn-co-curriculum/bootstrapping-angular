@@ -33,5 +33,11 @@ or our HTML page. In our case, we just want Angular to use
 the entire page and we'll just attach it to the `<body>`
 
 ```
-<body ng-app="MyApp"></body>
+<body ng-app="MyApp">
+  <div ng-view></div>
+</body>
 ```
+
+* `ng-app` tells Angular which application to use
+* `ng-view` is the space where Angular can write its
+  view from templates
