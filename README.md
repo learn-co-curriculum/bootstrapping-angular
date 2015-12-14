@@ -27,3 +27,11 @@ window.MyApp = angular.module('MyApp', ['ngRoute'])
 * ngRoute is Angular's routing feature which helps us interpret
   URLs and display content based on URL patterns. We'll get into
   how to use this in later lessons.
+
+Our Angular app then needs to know where it can use the DOM
+or our HTML page. In our case, we just want Angular to use
+the entire page and we'll just attach it to the `<body>`
+
+```
+<body ng-app="MyApp"></body>
+```
