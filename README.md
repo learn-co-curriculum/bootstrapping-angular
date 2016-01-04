@@ -53,7 +53,9 @@ container to start writing code into.
 
 Our Angular app then needs to know where it can use the DOM
 or our HTML page. In our case, we just want Angular to use
-the entire page and we'll just attach it to the `<body>`
+the entire page and we'll just attach it to the `<body>`.
+This also kind of acts as a container where our HTML will
+be written into.
 
 ```html
 <body ng-app="MyApp">
