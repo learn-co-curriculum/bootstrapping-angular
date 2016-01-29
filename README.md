@@ -41,3 +41,5 @@ the entire page and we'll just attach it to the `<body>`
 * `ng-app` tells Angular which application to use
 * `ng-view` is the space where Angular can write its
   view from templates
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/bootstrapping-angular' title='Bootstrapping An Application With Angular'>Bootstrapping An Application With Angular</a> on Learn.co and start learning to code for free.</p>
